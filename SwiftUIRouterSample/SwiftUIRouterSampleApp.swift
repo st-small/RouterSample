@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIRouterSampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppRouterView(router: AppRouter(services: AppServices()))
         }
     }
 }
